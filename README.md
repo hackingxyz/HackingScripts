@@ -32,11 +32,14 @@ sudo ./autoscan <target-ip>
 ```bash
 sudo ./autoscan 10.10.10.161
 ```
+![autoscan example](https://github.com/hackingxyz/autoscan/blob/main/1.png?raw=true)
 
 This will produce:
 
 * `10.10.10.161_portScan`
 * `10.10.10.161_serviceScan`
+
+![autoscan example](https://github.com/hackingxyz/autoscan/blob/main/2.png?raw=true)
 
 ---
 
