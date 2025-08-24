@@ -30,33 +30,16 @@ sudo ./autoscan <target-ip>
 ### Example
 
 ```bash
-sudo ./autoscan 10.10.10.161
+sudo ./autoscan 127.0.0.1
 ```
 ![autoscan example](https://github.com/hackingxyz/autoscan/blob/main/1.png?raw=true)
 
 This will produce:
 
-* `10.10.10.161_portScan`
-* `10.10.10.161_serviceScan`
+* `127.0.0.1_portScan`
+* `127.0.0.1_serviceScan`
 
 ![autoscan example](https://github.com/hackingxyz/autoscan/blob/main/2.png?raw=true)
-
----
-
-## Sample Output
-
-```text
-[*] Stage 1 - TCP Port Scan
-[*] Open ports found: 22,80,445
-
-[*] Stage 2 - Service and Version Scan
-# Nmap 7.93 scan initiated Sun Aug 18 ...
-Nmap scan report for 10.10.10.161
-PORT    STATE SERVICE VERSION
-22/tcp  open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
-80/tcp  open  http    Apache httpd 2.4.41 ((Ubuntu))
-445/tcp open  smb     Samba smbd 4.6.2
-```
 
 ---
 
